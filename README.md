@@ -1,4 +1,4 @@
-# shiny-yonkoma-json
+# shiny-yonkoma
 
 シャニマスのWeb4コマ漫画ツイートをまとめたJSONファイル（自動更新）
 
