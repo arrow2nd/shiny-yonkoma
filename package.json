@@ -1,0 +1,22 @@
+{
+  "name": "shiny-yonkoma",
+  "main": "./src/main.js",
+  "repository": "git@github.com:arrow2nd/shiny-yonkoma.git",
+  "author": "arrow2nd <44780846+arrow2nd@users.noreply.github.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "fmt": "prettier --write .",
+    "fmt:data": "prettier --write ./docs/*",
+    "update": "node ./src/main.js",
+    "update:idols": "node ./src/create-idols.js"
+  },
+  "devDependencies": {
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.5.1",
+    "twitter-api-v2": "^1.11.0"
+  }
+}

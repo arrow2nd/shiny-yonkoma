@@ -1,0 +1,36 @@
+name: AutoUpdate
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 日本時間の13時（大体12時に投稿されることが多いので）
+    - cron: '0 4 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install Node.js, npm and Yarn
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          cache: yarn
+
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      - name: Update data
+        run: yarn update
+        env:
+          BEARER_TOKEN: ${{secrets.BEARER_TOKEN}}
+
+      - name: Format data
+        run: yarn fmt:data
+
+      - name: Commit the changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'add: 新規4コマ漫画'
