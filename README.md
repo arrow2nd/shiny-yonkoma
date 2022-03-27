@@ -1,26 +1,26 @@
 # shiny-yonkoma
 
-シャニマスのWeb4コマ漫画ツイートをまとめたJSONファイル（自動更新）
+シャニマスの Web4 コマ漫画ツイートをまとめた JSON ファイル（自動更新）
 
-[![AutoUpdate](https://github.com/arrow2nd/shiny-yonkoma/actions/workflows/auto-update.yml/badge.svg)](https://github.com/arrow2nd/shiny-yonkoma/actions/workflows/auto-update.yml)
+[![update](https://github.com/arrow2nd/shiny-yonkoma/actions/workflows/update.yml/badge.svg)](https://github.com/arrow2nd/shiny-yonkoma/actions/workflows/update.yml)
 [![GitHub license](https://img.shields.io/github/license/arrow2nd/shiny-yonkoma)](https://github.com/arrow2nd/shiny-yonkoma/blob/main/LICENSE)
 
-> 4コマ漫画のまとめサイトを作ろうとしたら、めちゃめちゃ公式にあったのでやめた名残
+> 4 コマ漫画のまとめサイトを作ろうとしたら、めちゃめちゃ公式にあったのでやめた名残
 
 https://arrow2nd.github.io/shiny-yonkoma/yonkoma.json で最新のものが取得できます。
 
 ## データ形式
 
 ```ts
-type yonkoma = 	{
-  category: string;       // カテゴリ名
-  title: string;          // タイトル名
-  number: number | null;  // 話数
-  idols: string[];        // メインのアイドル名
-  url: string;            // ツイートURL
-  photoUrl: string;       // 画像URL
-  publishedUtc: string;   // 投稿日時（UTC / ISO 8601）
-};
+type yonkoma = {
+  category: string // カテゴリ名
+  title: string // タイトル名
+  number: number | null // 話数
+  idols: string[] // メインのアイドル名
+  url: string // ツイートURL
+  photoUrl: string // 画像URL
+  publishedUtc: string // 投稿日時（UTC / ISO 8601）
+}
 ```
 
 ### サンプル

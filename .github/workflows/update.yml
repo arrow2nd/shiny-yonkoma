@@ -1,4 +1,4 @@
-name: AutoUpdate
+name: update
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
     - cron: '0 4 * * *'
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
