@@ -540,10 +540,10 @@ text-table@^0.2.0:
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
 
-twitter-api-v2@^1.11.2:
-  version "1.11.2"
-  resolved "https://registry.yarnpkg.com/twitter-api-v2/-/twitter-api-v2-1.11.2.tgz#6faa91cb8b12121c182c33e473b792d7175702df"
-  integrity sha512-BqXmq6nTyKMNrCDgC/Pr05xU9lG20wiRqHTRXaKGqGE9fLOicV8ziJiNnapuVM6N4HmRI4/cKPijfuC1QF6Tzw==
+twitter-api-v2@^1.12.0:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/twitter-api-v2/-/twitter-api-v2-1.12.0.tgz#0c69fd9578a4e870404bb449cd3634275c152d2e"
+  integrity sha512-8Fv+sUYY0P1gloiBSgG1w/NSuGUIP32lDKMPVzIMX3jd4zDhiJFtCft41fKs+JqcD8m7s+4vkMO/XwyY2+NULQ==
 
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"

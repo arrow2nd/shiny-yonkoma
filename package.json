@@ -17,6 +17,6 @@
     "eslint": "^8.13.0",
     "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.6.1",
-    "twitter-api-v2": "^1.11.2"
+    "twitter-api-v2": "^1.12.0"
   }
 }
