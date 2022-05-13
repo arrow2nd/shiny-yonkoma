@@ -14,7 +14,7 @@
   "devDependencies": {
     "axios": "^0.26.1",
     "dotenv": "^16.0.0",
-    "eslint": "^8.13.0",
+    "eslint": "^8.15.0",
     "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.6.2",
     "twitter-api-v2": "^1.12.0"
