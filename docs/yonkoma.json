@@ -3376,15 +3376,6 @@
   },
   {
     "category": "web4コマ漫画",
-    "title": "スパダリ",
-    "number": 343,
-    "idols": ["白瀬咲耶"],
-    "url": "https://twitter.com/imassc_official/status/1531832919228133377",
-    "photoUrl": "https://pbs.twimg.com/media/FTqPmrNVEAATeQe.jpg",
-    "publishedUtc": "2022-06-01T03:00:02.000Z"
-  },
-  {
-    "category": "web4コマ漫画",
     "title": "すごい",
     "number": 342,
     "idols": ["浅倉透"],
@@ -3394,12 +3385,12 @@
   },
   {
     "category": "web4コマ漫画",
-    "title": "夢の話",
-    "number": 345,
-    "idols": ["樋口円香"],
-    "url": "https://twitter.com/imassc_official/status/1535456792674635776",
-    "photoUrl": "https://pbs.twimg.com/media/FUyfmRsaAAAA3Yw.jpg",
-    "publishedUtc": "2022-06-11T03:00:01.000Z"
+    "title": "スパダリ",
+    "number": 343,
+    "idols": ["白瀬咲耶"],
+    "url": "https://twitter.com/imassc_official/status/1531832919228133377",
+    "photoUrl": "https://pbs.twimg.com/media/FTqPmrNVEAATeQe.jpg",
+    "publishedUtc": "2022-06-01T03:00:02.000Z"
   },
   {
     "category": "web4コマ漫画",
@@ -3409,5 +3400,15 @@
     "url": "https://twitter.com/imassc_official/status/1535156810944024578",
     "photoUrl": "https://pbs.twimg.com/media/FU3hdlLaAAAQhOU.jpg",
     "publishedUtc": "2022-06-10T07:08:00.000Z"
+  },
+  {
+    "category": "web4コマ漫画",
+    "title": "夢の話",
+    "number": 345,
+    "idols": ["樋口円香"],
+    "url": "https://twitter.com/imassc_official/status/1535456792674635776",
+    "photoUrl": "https://pbs.twimg.com/media/FUyfmRsaAAAA3Yw.jpg",
+    "publishedUtc": "2022-06-11T03:00:01.000Z"
   }
 ]
+
