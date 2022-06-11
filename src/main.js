@@ -44,11 +44,14 @@ const client = new TwitterApi(process.env.BEARER_TOKEN || '')
     )
   }
 
-  // 更新したデータを反映
-  if (prevYonkomaLength !== yonkoma.length) {
-    const json = JSON.stringify(yonkoma, null, '\t')
-    writeFileSync('./docs/yonkoma.json', json)
-  }
+  // データ数が同じなら保存しない
+  if (prevYonkomaLength === yonkoma.length) return
+
+  const data = yonkoma.sort((a, b) =>
+    new Date(a.publishedUtc) > new Date(b.publishedUtc) ? 1 : -1
+  )
+
+  writeFileSync('./docs/yonkoma.json', JSON.stringify(data, null, '\t'))
 
   console.log('[SUCCESS]')
 })()
