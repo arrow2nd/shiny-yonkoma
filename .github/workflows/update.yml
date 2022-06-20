@@ -3,8 +3,8 @@ name: update
 on:
   workflow_dispatch:
   schedule:
-    # 日本時間の13時（大体12時に投稿されることが多いので）
-    - cron: '0 4 * * *'
+    # 日本時間の16時（大体15時頃に更新・投稿されることが多いので）
+    - cron: '0 7 * * *'
 
 jobs:
   update:
