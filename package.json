@@ -16,7 +16,7 @@
     "dotenv": "^16.0.1",
     "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.5.0",
-    "prettier": "^2.6.2",
+    "prettier": "^2.7.1",
     "twitter-api-v2": "^1.12.2"
   }
 }
