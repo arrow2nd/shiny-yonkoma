@@ -11,17 +11,15 @@ https://arrow2nd.github.io/shiny-yonkoma/yonkoma.json で最新のものが取�
 
 ## データ形式
 
-```ts
-type yonkoma = {
-  category: string // カテゴリ名
-  title: string // タイトル名
-  number: number | null // 話数
-  idols: string[] // メインのアイドル名
-  url: string // ツイートURL
-  photoUrl: string // 画像URL
-  publishedUtc: string // 投稿日時（UTC / ISO 8601）
-}
-```
+| フィールド   | 型             | 内容                       |
+| ------------ | -------------- | -------------------------- |
+| category     | string         | カテゴリ名                 |
+| title        | string         | タイトル名                 |
+| number       | number or null | 話数                       |
+| idols        | string[]       | メインのアイドル名         |
+| url          | string         | ツイート URL               |
+| photoUrl     | string         | 画像 URL                   |
+| publishedUtc | string         | 投稿日時（UTC / ISO 8601） |
 
 ### サンプル
 
