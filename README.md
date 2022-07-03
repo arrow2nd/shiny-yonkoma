@@ -7,7 +7,7 @@
 
 > 4 コマ漫画のまとめサイトを作ろうとしたら、めちゃめちゃ公式にあったのでやめた名残
 
-https://arrow2nd.github.io/shiny-yonkoma/yonkoma.json で最新のものが取得できます。
+[ここ](docs/yonkoma.json) もしくは、https://arrow2nd.github.io/shiny-yonkoma/yonkoma.json で最新のものが取得できます。
 
 ## データ形式
 
