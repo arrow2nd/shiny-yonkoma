@@ -23,7 +23,10 @@ const client = new TwitterApi(process.env.BEARER_TOKEN || '')
   const includes = new TwitterV2IncludesHelper(results)
 
   for await (const tweet of results) {
-    const photoUrl = includes.medias(tweet)?.[0].url
+    const medias = includes.medias(tweet)
+    if (medias.length <= 0) continue
+
+    const photoUrl = medias[0]?.url
     if (!photoUrl) continue
 
     const newEpisode = extractEpisodeInfo(tweet.text)
