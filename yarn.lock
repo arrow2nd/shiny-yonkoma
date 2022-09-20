@@ -991,7 +991,7 @@ __metadata:
     eslint: ^8.23.0
     eslint-config-prettier: ^8.5.0
     prettier: ^2.7.1
-    twitter-api-v2: ^1.12.5
+    twitter-api-v2: ^1.12.7
   languageName: unknown
   linkType: soft
 
@@ -1043,10 +1043,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"twitter-api-v2@npm:^1.12.5":
-  version: 1.12.5
-  resolution: "twitter-api-v2@npm:1.12.5"
-  checksum: f982a4180b85d1aa6bbcd7e4a8185c8c1c19ef28259ef99c04a9171a18cdad704768f8aab47e9173c30d8705334aba2c6a8a1cb376e877ea4177b4652dd8dda0
+"twitter-api-v2@npm:^1.12.7":
+  version: 1.12.7
+  resolution: "twitter-api-v2@npm:1.12.7"
+  checksum: 3dd18d120874460f7edb007dda73d92b50b8bb170e54189e7ec638e6d72a31fa7c617bf259bd7d6da19e7fc85f2952c3fa453ab3b1b9b86aa2b6895eda2144b7
   languageName: node
   linkType: hard
 
