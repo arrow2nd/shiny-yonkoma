@@ -3,7 +3,6 @@
 シャニマスの Web4 コマ漫画ツイートをまとめた JSON ファイル（自動更新）
 
 [![update](https://github.com/arrow2nd/shiny-yonkoma/actions/workflows/update.yml/badge.svg)](https://github.com/arrow2nd/shiny-yonkoma/actions/workflows/update.yml)
-[![GitHub license](https://img.shields.io/github/license/arrow2nd/shiny-yonkoma)](https://github.com/arrow2nd/shiny-yonkoma/blob/main/LICENSE)
 
 > 4 コマ漫画のまとめサイトを作ろうとしたら、めちゃめちゃ公式にあったのでやめた名残
 
