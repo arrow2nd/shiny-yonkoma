@@ -14,10 +14,10 @@
   "devDependencies": {
     "axios": "^0.27.2",
     "dotenv": "^16.0.3",
-    "eslint": "^8.25.0",
+    "eslint": "^8.26.0",
     "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.7.1",
-    "twitter-api-v2": "^1.12.8"
+    "twitter-api-v2": "^1.12.9"
   },
   "packageManager": "yarn@3.2.2"
 }
