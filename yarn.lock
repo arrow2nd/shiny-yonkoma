@@ -794,12 +794,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.8.1":
-  version: 2.8.1
-  resolution: "prettier@npm:2.8.1"
+"prettier@npm:^2.8.3":
+  version: 2.8.3
+  resolution: "prettier@npm:2.8.3"
   bin:
     prettier: bin-prettier.js
-  checksum: 4f21a0f1269f76fb36f54e9a8a1ea4c11e27478958bf860661fb4b6d7ac69aac1581f8724fa98ea3585e56d42a2ea317a17ff6e3324f40cb11ff9e20b73785cc
+  checksum: 92f2ceb522d454370e02082aa74ad27388672f7cee8975028b59517c069fe643bdc73e322675c8faf2ff173d7a626d1a6389f26b474000308e793aa25fff46e5
   languageName: node
   linkType: hard
 
@@ -882,8 +882,8 @@ __metadata:
     dotenv: ^16.0.3
     eslint: ^8.31.0
     eslint-config-prettier: ^8.6.0
-    prettier: ^2.8.1
-    twitter-api-v2: ^1.13.0
+    prettier: ^2.8.3
+    twitter-api-v2: ^1.14.0
   languageName: unknown
   linkType: soft
 
@@ -919,10 +919,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"twitter-api-v2@npm:^1.13.0":
-  version: 1.13.0
-  resolution: "twitter-api-v2@npm:1.13.0"
-  checksum: 2140af480fb24a75d4979134bdda18d5fefd6687485c3a25e51d76b27b565b3fb7460d1f9755c0f5f877dac28a077e60d29a31cc2288c4ee0b797179edd70681
+"twitter-api-v2@npm:^1.14.0":
+  version: 1.14.0
+  resolution: "twitter-api-v2@npm:1.14.0"
+  checksum: 16f407d2d065eca5b3b08fa7fc52333f3a91ed1f4f11f558a3bfe1c3a04a822cb0ac5853957564ae9f3b56a085e05896f90a96cb6df4861347cbb7106072254b
   languageName: node
   linkType: hard
 
